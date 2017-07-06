@@ -1,0 +1,213 @@
+﻿html, body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #000000;
+	color: #666666;
+	font-size: 12px;
+	font-family: Georgia, serif;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+}
+
+.text_r{
+	text-align: right;
+}
+
+.text_c{
+	text-align: center;
+}
+
+.text_c_border_l{
+	text-align: center;
+	border-left: 2px solid #ffffff;
+}
+
+.border_l{
+	border-left: 2px solid #ffffff;
+}
+
+.hidden{
+	display: none;
+}
+
+#page-wrapper{
+	width: 760px;
+	margin: auto;
+	background-color: #ffffff;
+}
+
+#nav{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+	height: 50px;
+}
+
+#nav ul{
+	font-size: 26px;
+}
+
+#nav li{
+	display: inline;
+	background-color: #000000;
+}
+
+#nav a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 20px;
+}
+
+#nav a:hover{
+	color: #00cc00;
+}
+
+#header{
+	height: 150px;
+	background: url(../images/header.png);
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar{
+	float: right;
+	width: 250px;
+}
+
+#sidebar .padding{
+	padding: 20px;
+}
+
+#highlight{
+	background: #c0c0c0;
+	padding: 5px;
+	text-align: center;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+
+#main_home{
+	margin-right: 250px;
+	padding-bottom: 70px;
+}
+
+#main_home .padding{
+	padding: 20px;
+}
+
+#main_home h2{
+	color: #00cc00;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 15px;
+}
+
+#main_home p{
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+#main_menu{
+	
+}
+
+#main_menu h2{
+	color: #00cc00;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 15px;
+}
+
+#main_menu p{
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+#main_menu table{
+	width: 100%;
+	padding: 5px;
+	border-collapse: collapse;
+	background: #000000;
+}
+
+#main_menu th, td{
+	width: 16%;
+}
+
+#main_menu th{
+	color: #00cc00;
+}
+
+#main_menu td{
+	color: #ffffff;
+}
+
+#main_menu .padding{
+	padding: 20px;
+}
+
+#main_gallery{
+	
+}
+
+#main_gallery h2{
+	color: #00cc00;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 15px;
+}
+
+#main_gallery p{
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+#main_gallery table{
+	width: 100%;
+	padding: 5px;
+	border-collapse: collapse;
+}
+
+#main_gallery td{
+	width: 50%;
+}
+
+#main_gallery .padding{
+	padding: 20px;
+}
+
+#footer{
+	clear: both;
+	height: 70px;
+	font-family: Georgia, serif;
+	font-size: 10px;
+	color: #000000;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	padding: 13px 25px;
+	line-height: 18px;
+	background-color: #c0c0c0;
+}
+
+#footer a{
+	text-decoration: none;
+	color: #000000;
+}
+
+#footer a:hover{
+	color: #ffffff;
+}
+
+#footer #altnav{
+	width: 250px;
+	float: right;
+	text-align: right;
+}
